@@ -1,6 +1,6 @@
 FROM alpine:3.13
 
-ARG KUBECTL_VERSION="1.17.7"
+ARG KUBECTL_VERSION="1.19.7"
 
 RUN apk add py-pip curl wget ca-certificates git bash jq gcc alpine-sdk
 RUN pip install awscli
